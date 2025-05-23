@@ -1,0 +1,14 @@
+// adding new practices
+	// project
+	dotnet new console -n LongestIncreasingSubsequence
+	dotnet sln add LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj
+	// test
+	dotnet new xunit -n LongestIncreasingSubsequence.Tests
+	dotnet sln add LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj
+	// adding reference
+	cd LongestIncreasingSubsequence.Tests
+	dotnet add reference ../LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj
+
+// running following practices
+cd LongestIncreasingSubsequence
+dotnet run
