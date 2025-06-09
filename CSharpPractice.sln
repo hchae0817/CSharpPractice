@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence", "CSharpPractice\LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{EAABA29C-4AC9-4251-8497-AE7867AE3F95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingChar", "LongestSubstringWithoutRepeatingChar\LongestSubstringWithoutRepeatingChar.csproj", "{CDF9DD95-66E1-4070-A361-37C8420B2816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingChar", "LongestSubstringWithoutRepeatingChar\LongestSubstringWithoutRepeatingChar.csproj", "{CDF9DD95-66E1-4070-A361-37C8420B2816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingChar.Tests", "LongestSubstringWithoutRepeatingChar.Tests\LongestSubstringWithoutRepeatingChar.Tests.csproj", "{3DF98B07-CEFE-49BB-9014-C090ADF72C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingChar.Tests", "LongestSubstringWithoutRepeatingChar.Tests\LongestSubstringWithoutRepeatingChar.Tests.csproj", "{3DF98B07-CEFE-49BB-9014-C090ADF72C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedInputArray", "SortedInputArray\SortedInputArray.csproj", "{D9F67E62-7FD2-415F-A885-D20DE37C28D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedArray.Test", "SortedArray.Test\SortedArray.Test.csproj", "{7B20D653-6EF5-41E2-A497-0F16F342EC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringDistinctCharacters", "LongestSubstringDistinctCharacters\LongestSubstringDistinctCharacters.csproj", "{5F55945A-5F11-45F2-900A-8FA67AFD94DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{3DF98B07-CEFE-49BB-9014-C090ADF72C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DF98B07-CEFE-49BB-9014-C090ADF72C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DF98B07-CEFE-49BB-9014-C090ADF72C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F67E62-7FD2-415F-A885-D20DE37C28D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F67E62-7FD2-415F-A885-D20DE37C28D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F67E62-7FD2-415F-A885-D20DE37C28D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F67E62-7FD2-415F-A885-D20DE37C28D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B20D653-6EF5-41E2-A497-0F16F342EC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B20D653-6EF5-41E2-A497-0F16F342EC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B20D653-6EF5-41E2-A497-0F16F342EC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B20D653-6EF5-41E2-A497-0F16F342EC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
