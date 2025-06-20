@@ -13,11 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingChar.Tests", "LongestSubstringWithoutRepeatingChar.Tests\LongestSubstringWithoutRepeatingChar.Tests.csproj", "{3DF98B07-CEFE-49BB-9014-C090ADF72C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedInputArray", "SortedInputArray\SortedInputArray.csproj", "{D9F67E62-7FD2-415F-A885-D20DE37C28D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedInputArray", "SortedInputArray\SortedInputArray.csproj", "{D9F67E62-7FD2-415F-A885-D20DE37C28D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedArray.Test", "SortedArray.Test\SortedArray.Test.csproj", "{7B20D653-6EF5-41E2-A497-0F16F342EC87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedArray.Test", "SortedArray.Test\SortedArray.Test.csproj", "{7B20D653-6EF5-41E2-A497-0F16F342EC87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringDistinctCharacters", "LongestSubstringDistinctCharacters\LongestSubstringDistinctCharacters.csproj", "{5F55945A-5F11-45F2-900A-8FA67AFD94DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringDistinctCharacters", "LongestSubstringDistinctCharacters\LongestSubstringDistinctCharacters.csproj", "{5F55945A-5F11-45F2-900A-8FA67AFD94DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackProblem01", "StackProblem01\StackProblem01.csproj", "{9B2B770E-5DCE-4CAD-916F-C69B9E057FFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskSchedular", "TaskSchedular\TaskSchedular.csproj", "{D1CAF5CD-D50E-48E4-8ABD-48C396BBAAD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingLot", "ParkingLot\ParkingLot.csproj", "{41EB6D42-B5A6-4E4F-8785-14D8857B43A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequentElement", "FrequentElement\FrequentElement.csproj", "{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedInterval", "MergedInterval\MergedInterval.csproj", "{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F55945A-5F11-45F2-900A-8FA67AFD94DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2B770E-5DCE-4CAD-916F-C69B9E057FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2B770E-5DCE-4CAD-916F-C69B9E057FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2B770E-5DCE-4CAD-916F-C69B9E057FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2B770E-5DCE-4CAD-916F-C69B9E057FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CAF5CD-D50E-48E4-8ABD-48C396BBAAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CAF5CD-D50E-48E4-8ABD-48C396BBAAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CAF5CD-D50E-48E4-8ABD-48C396BBAAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CAF5CD-D50E-48E4-8ABD-48C396BBAAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41EB6D42-B5A6-4E4F-8785-14D8857B43A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EB6D42-B5A6-4E4F-8785-14D8857B43A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EB6D42-B5A6-4E4F-8785-14D8857B43A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EB6D42-B5A6-4E4F-8785-14D8857B43A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
