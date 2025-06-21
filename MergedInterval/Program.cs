@@ -8,6 +8,7 @@
         //Example:
         //Input: [[1,3], [2,6], [8,10], [15,18]]
         //Output: [[1,6], [8,10], [15,18]]
+
         static int[][] GetResult_01(int[][] input)
         {
             if (input == null || input.Length == 0) return new int[0][];
@@ -15,14 +16,31 @@
 
             var sortedInput = input.OrderBy(x => x.First()).ToList();
             // sort the array in order // nlogn
-            foreach (int[] pair in sortedInput)
+
+            int prevStart = sortedInput[0][0];
+            int prevEnd = sortedInput[0][1];
+
+            for (int index = 1; index < sortedInput.Count; index++)
             {
-               
+                int[] pair = sortedInput[index];
+
+                if (pair[0] <= prevEnd) 
+                {
+                    prevEnd = Math.Max(prevEnd, pair[1]);
+                }
+                else 
+                {
+                    result.Add(new List<int> { prevStart, prevEnd });
+                    prevStart = pair[0];
+                    prevEnd = pair[1];
+                }
             }
 
-            // if a_end >= b_start, merge.
+            result.Add(new List<int> { prevStart, prevEnd });
 
-            return new int[0][];
+            int[][] resultArray = result.Select(inner => inner.ToArray()).ToArray();
+
+            return resultArray;
         }
         static void Main(string[] args)
         {

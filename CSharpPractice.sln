@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequentElement", "Frequent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedInterval", "MergedInterval\MergedInterval.csproj", "{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "CloneGraph\Graph.csproj", "{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
