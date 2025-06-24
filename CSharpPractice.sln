@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPractice", "CSharpPractice\CSharpPractice.csproj", "{C58C5468-9531-4B16-BAA0-D4572C4C82FD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence.Tests", "CSharpPractice\LongestIncreasingSubsequence.Tests\LongestIncreasingSubsequence.Tests.csproj", "{FBC749EC-1A46-4033-958F-B55BDDFBB3BE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestIncreasingSubsequence", "CSharpPractice\LongestIncreasingSubsequence\LongestIncreasingSubsequence.csproj", "{EAABA29C-4AC9-4251-8497-AE7867AE3F95}"
@@ -27,13 +25,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingLot", "ParkingLot\Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequentElement", "FrequentElement\FrequentElement.csproj", "{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergedInterval", "MergedInterval\MergedInterval.csproj", "{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergedInterval", "MergedInterval\MergedInterval.csproj", "{84A37B7D-963C-4B6C-ACB4-FA7E9F8C46FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "CloneGraph\Graph.csproj", "{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "CloneGraph\Graph.csproj", "{F3025FA6-8617-4D8B-B1E6-14AEF14ADEBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReorganiseString", "ReorganiseString\ReorganiseString.csproj", "{CB97F951-576F-4B81-8525-A7502BCC6A74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReorganiseString", "ReorganiseString\ReorganiseString.csproj", "{CB97F951-576F-4B81-8525-A7502BCC6A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph.Test", "Graph.Test\Graph.Test.csproj", "{3C5DC1E4-2F64-4C24-B914-719076C6C1FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{7DF3153F-E7E6-4901-B300-A1BCB2911794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestRepeatingCharReplacement", "LongestRepeatingCharReplacement\LongestRepeatingCharReplacement.csproj", "{B980B037-6BE3-4618-B71A-587FC497F8A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SlidingWindow", "SlidingWindow", "{5B15C42B-D4CD-4933-8AEA-8A896C71D11D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayQuestion", "ArrayQuestion", "{8A428718-3FBB-4B5C-848D-79BB4F0AE56A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueueQuestion", "QueueQuestion", "{550AD18C-4667-4B0A-9DCA-F9E277E187B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{A640579E-DC36-474C-BE86-F19F597E53A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +49,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C58C5468-9531-4B16-BAA0-D4572C4C82FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C58C5468-9531-4B16-BAA0-D4572C4C82FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C58C5468-9531-4B16-BAA0-D4572C4C82FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C58C5468-9531-4B16-BAA0-D4572C4C82FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBC749EC-1A46-4033-958F-B55BDDFBB3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBC749EC-1A46-4033-958F-B55BDDFBB3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC749EC-1A46-4033-958F-B55BDDFBB3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -101,15 +105,33 @@ Global
 		{CB97F951-576F-4B81-8525-A7502BCC6A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB97F951-576F-4B81-8525-A7502BCC6A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB97F951-576F-4B81-8525-A7502BCC6A74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C5DC1E4-2F64-4C24-B914-719076C6C1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C5DC1E4-2F64-4C24-B914-719076C6C1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C5DC1E4-2F64-4C24-B914-719076C6C1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C5DC1E4-2F64-4C24-B914-719076C6C1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF3153F-E7E6-4901-B300-A1BCB2911794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF3153F-E7E6-4901-B300-A1BCB2911794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF3153F-E7E6-4901-B300-A1BCB2911794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF3153F-E7E6-4901-B300-A1BCB2911794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B980B037-6BE3-4618-B71A-587FC497F8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B980B037-6BE3-4618-B71A-587FC497F8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B980B037-6BE3-4618-B71A-587FC497F8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B980B037-6BE3-4618-B71A-587FC497F8A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1DEE19E-B74E-4675-BDBE-10FB3C7CD5AE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF9DD95-66E1-4070-A361-37C8420B2816} = {5B15C42B-D4CD-4933-8AEA-8A896C71D11D}
+		{3DF98B07-CEFE-49BB-9014-C090ADF72C00} = {5B15C42B-D4CD-4933-8AEA-8A896C71D11D}
+		{B980B037-6BE3-4618-B71A-587FC497F8A2} = {5B15C42B-D4CD-4933-8AEA-8A896C71D11D}
+		{5F55945A-5F11-45F2-900A-8FA67AFD94DE} = {5B15C42B-D4CD-4933-8AEA-8A896C71D11D}
+		{EAABA29C-4AC9-4251-8497-AE7867AE3F95} = {8A428718-3FBB-4B5C-848D-79BB4F0AE56A}
+		{FBC749EC-1A46-4033-958F-B55BDDFBB3BE} = {8A428718-3FBB-4B5C-848D-79BB4F0AE56A}
+		{7DF3153F-E7E6-4901-B300-A1BCB2911794} = {8A428718-3FBB-4B5C-848D-79BB4F0AE56A}
+		{4C0216C2-B57D-40DE-BC6F-BC89FBEBB9FC} = {550AD18C-4667-4B0A-9DCA-F9E277E187B0}
+		{CB97F951-576F-4B81-8525-A7502BCC6A74} = {550AD18C-4667-4B0A-9DCA-F9E277E187B0}
+		{7B20D653-6EF5-41E2-A497-0F16F342EC87} = {8A428718-3FBB-4B5C-848D-79BB4F0AE56A}
+		{D9F67E62-7FD2-415F-A885-D20DE37C28D0} = {8A428718-3FBB-4B5C-848D-79BB4F0AE56A}
+		{41EB6D42-B5A6-4E4F-8785-14D8857B43A9} = {A640579E-DC36-474C-BE86-F19F597E53A9}
 	EndGlobalSection
 EndGlobal
